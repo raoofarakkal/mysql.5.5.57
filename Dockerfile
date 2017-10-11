@@ -8,5 +8,5 @@ RUN apt-get update && apt-get -y upgrade
 RUN apt-get -y install iputils-ping
 
 RUN apt-get update && \
-    apt-get -y install curl nano 
+    apt-get -y install curl nano sudo
 
