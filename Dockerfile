@@ -17,4 +17,4 @@ EXPOSE 3306
 
 CMD ["/bin/bash", "/opt/startup.sh"]
 
-CMD ["/bin/bash", "service mysql restart"]
+#CMD ["/bin/bash", "service mysql restart"]
