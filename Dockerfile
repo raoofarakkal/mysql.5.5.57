@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get -y install iputils-ping
 
 RUN apt-get update && \
-    apt-get -y install curl nano mysql-client mysql-server-5.5
+    apt-get -y install curl nano mysql-client mysql-server-5.5 telnet
 
 RUN sed -i -e"s/^bind-address\s*=\s*127.0.0.1/bind-address = 0.0.0.0/" /etc/mysql/my.cnf
 
